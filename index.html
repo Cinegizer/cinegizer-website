@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinegizer - Deine App für Film- & Serienentdeckungen</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #111827;
+            color: #E5E7EB;
+        }
+        .app-store-badge {
+            display: inline-block;
+            height: 57px;
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <div class="flex flex-col min-h-screen">
+
+        <!-- Header -->
+        <header class="py-6 px-4 sm:px-6 lg:px-8">
+            <div class="max-w-4xl mx-auto flex justify-between items-center">
+                <div class="flex items-center space-x-3">
+                    <img src="https://storage.googleapis.com/project-hosting-storage/users/000/000/001/2d3ddb00b80f473c.png" alt="Cinegizer Logo" class="h-10 w-10">
+                    <span class="text-2xl font-bold text-white">Cinegizer</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="flex-grow">
+            <!-- Hero Section -->
+            <section class="text-center py-20 px-4 sm:px-6 lg:px-8">
+                <div class="max-w-2xl mx-auto">
+                    <h1 class="text-4xl sm:text-5xl md:text-6xl font-extrabold text-white leading-tight">
+                        Nie wieder unentschlossen.
+                    </h1>
+                    <p class="mt-4 text-lg sm:text-xl text-gray-300">
+                        Finde den perfekten Film oder die perfekte Serie für jeden Anlass. Oder lass im Battle-Modus den Zufall entscheiden.
+                    </p>
+                    <div class="mt-8">
+                        <a href="https://apps.apple.com/de/app/cinegizer/idYOUR_APP_ID" class="app-store-badge" target="_blank">
+                            <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store">
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- About & Support Section -->
+            <section id="about" class="py-20 bg-gray-900/50">
+                <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                    <h2 class="text-3xl font-bold text-white">Über das Projekt</h2>
+                    <div class="mt-4 max-w-2xl mx-auto text-gray-300 space-y-4">
+                        <p>
+                            Meine Mission ist es, eine einfache, kostenlose und werbefreie App zu bieten, die Ihnen und Ihren Freunden hilft, schnell den perfekten Film oder die richtige Serie zu finden. Ob Sie einfach nur Inspiration suchen oder im Battle-Modus das Schicksal entscheiden lassen – Cinegizer soll Spaß machen.
+                        </p>
+                        <p>
+                            Wenn Ihnen die App gefällt und Sie meine Arbeit unterstützen möchten, damit sie auch in Zukunft kostenlos und ohne nervige Werbung bleibt, dann können Sie mir einen virtuellen Kaffee spendieren! Jeder einzelne hilft, die Kosten zu decken und neue, coole Features zu entwickeln.
+                        </p>
+                    </div>
+                    <div class="mt-10">
+                        <a href="https://ko-fi.com/cinegizer" target="_blank" class="inline-block bg-yellow-400 hover:bg-yellow-500 text-black font-semibold py-3 px-6 rounded-lg text-lg transition-transform transform hover:scale-105">
+                            Unterstütz mich auf Ko-fi ☕
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="py-6 px-4 sm:px-6 lg:px-8">
+            <div class="max-w-4xl mx-auto text-center text-sm text-gray-400">
+                <p>&copy; 2025 Ihr Name. Alle Rechte vorbehalten.</p>
+                <p class="mt-2">
+                    <a href="IHRE_DATENSCHUTZ_URL" class="underline hover:text-white">Datenschutz</a>
+                </p>
+            </div>
+        </footer>
+
+    </div>
+
+</body>
+</html>
